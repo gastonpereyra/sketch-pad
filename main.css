@@ -1,0 +1,76 @@
+:root {
+	font-size: 5vmin;
+	font-family: 'Permanent Marker', cursive;
+}
+body {
+	margin: 0px;
+	background: linear-gradient(45deg, black, #404040);
+}
+header {
+	height: 100vh;
+	background: url('https://www.svgrepo.com/show/89147/drawing.svg') no-repeat center;
+	color: antiqueWhite;
+	font-family: 'Barrio', cursive;
+	text-align: center;
+}
+header h1 {
+	letter-spacing: 1em;
+	transform: translateY(-0.5em);
+}
+header h2 {
+	color: royalblue;
+	transform: translateY(-1.5em);
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+.container {
+	display: grid;
+  grid-gap: 0px 0px;
+	font-size: 1.5vmin;
+	width: 64em;
+	height: 64em;
+	margin: auto;
+	border: 0.25em solid slategray;
+}
+.block {
+	box-sizing: border-box;
+	font-size: inherit;
+	cursor:crosshair;
+	background: royalblue;
+	opacity: 0.5;
+	border: 0.05em solid slategray;
+}
+#control {
+	margin: auto;
+	font-size: 1.5vmin;
+	width: 64em;
+	height: 64em;
+}
+#control fieldset {
+	height: 40%;
+	margin-top: 5%;
+	background: slategray;
+	color: antiquewhite;
+	text-align: center;
+}
+#control fieldset legend {
+	padding: 0.25em;
+	border: 0.10em solid antiquewhite;
+	border-radius: 0.50em;
+	box-shadow: 0.2em 0.2em rgba(0, 0, 0, 0.8);
+	background: royalblue;
+	color: antiquewhite;
+}
+.normalLetter {
+	font-size: 1rem;
+}
+footer {
+	height: 1.5rem;
+	margin-top: 2vmin;
+	border-top: 0.25rem solid slategray;
+	background: royalblue;
+	text-align: center;
+	color: slategray;
+}
