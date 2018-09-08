@@ -89,3 +89,11 @@ footer {
 	text-align: center;
 	color: slategray;
 }
+@media only screen and (max-width: 1000px) {
+    header {
+        overflow: hidden;
+    }
+    main {
+        flex-direction: column;
+    }
+}
