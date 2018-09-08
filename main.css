@@ -63,6 +63,21 @@ main {
 	background: royalblue;
 	color: antiquewhite;
 }
+#newSize {
+    width: 50%;
+    background: slategray;
+    color: antiquewhite;
+    font-family: inherit;
+    text-align: center;
+    transition: all 0.5s;
+}
+#newSize:focus {
+    background: royalblue
+}
+#colorBorders, #newColor {
+    width: 1.5rem;
+    height: 1rem;
+}
 .normalLetter {
 	font-size: 1rem;
 }
